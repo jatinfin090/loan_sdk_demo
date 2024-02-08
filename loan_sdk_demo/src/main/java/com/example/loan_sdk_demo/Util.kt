@@ -9,6 +9,6 @@ fun keshavSumValue(a: Int, b: Int): Int {
     return a + b
 }
 
-fun loanFunCall(): String {
+fun loanFunCal(): String {
     return "Loan Fun Call"
 }
