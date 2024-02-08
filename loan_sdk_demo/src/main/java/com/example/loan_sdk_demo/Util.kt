@@ -8,3 +8,7 @@ package com.example.loan_sdk_demo
 fun keshavSumValue(a: Int, b: Int): Int {
     return a + b
 }
+
+fun loanFunCall(): String {
+    return "Loan Fun Call"
+}

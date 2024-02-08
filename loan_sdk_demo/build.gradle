@@ -47,7 +47,7 @@ afterEvaluate {
             from components.findByName(variant.name)
             groupId = 'com.example'
             artifactId = 'loan_sdk_demo'
-            version = "1.0.0"
+            version = "1.0.1"
 
         }
     }
