@@ -41,18 +41,18 @@ dependencies {
 }
 
 //// this function is used to publish the library to local maven repository
-/*afterEvaluate {
+afterEvaluate {
     android.libraryVariants.each { variant ->
         publishing.publications.create(variant.name, MavenPublication) {
             from components.findByName(variant.name)
             groupId = 'com.example'
             artifactId = 'loan_sdk_demo'
-            version = "1.0.3"
+            version = "1.0.4"
         }
     }
-}*/
+}
 
-afterEvaluate {
+/*afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
@@ -63,4 +63,4 @@ afterEvaluate {
             }
         }
     }
-}
+}*/
