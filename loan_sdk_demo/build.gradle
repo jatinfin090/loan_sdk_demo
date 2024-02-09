@@ -63,7 +63,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.jatinfin090'
                 artifactId = 'loan_sdk_demo'
-                version = "1.0.8"
+                version = "1.0.9"
             }
         }
     }

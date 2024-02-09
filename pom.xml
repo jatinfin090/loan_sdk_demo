@@ -5,7 +5,7 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.jatinfin090</groupId>
     <artifactId>loan_sdk_demo</artifactId>
-    <version>1.0.8</version>
+    <version>1.0.9</version>
     <packaging>pom</packaging>
     <description>7 version of the loan sdk</description>
 
