@@ -61,9 +61,9 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.example'
+                groupId = 'com.github.jatinfin090'
                 artifactId = 'loan_sdk_demo'
-                version = "1.0.7"
+                version = "1.0.8"
             }
         }
     }
