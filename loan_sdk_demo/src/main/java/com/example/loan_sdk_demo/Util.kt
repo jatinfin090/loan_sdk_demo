@@ -1,7 +1,6 @@
 package com.example.loan_sdk_demo
 
-
-    fun sumLoan(a: Int, b: Int): Int {
+fun sumLoan(a: Int, b: Int): Int {
         return a + b
     }
 
