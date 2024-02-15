@@ -3,5 +3,4 @@ jdk:
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
-  - FILE="-Dfile=D:\Orion_Projects\Finvaisa_projects\loan_sdk_demo\loan_sdk_demo\build\outputs\aar\loan_sdk_demo-debug.aar"
-  - mvn install:install-file $FILE -DgroupId=com.github.jatinfin090 -DartifactId=com.github.jatinfin090 -Dversion=1.1.6 -Dpackaging=aar -DgeneratePom=true
+  mvn install:install-file -Dfile=D:\Orion_Projects\Finvaisa_projects\loan_sdk_demo\loan_sdk_demo\build\outputs\aar\loan_sdk_demo-debug.aar -DgroupId=com.github.jatinfin090 -DartifactId=loan_sdk_demo -Dversion=1.1.7 -Dpackaging=aar
